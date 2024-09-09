@@ -1,0 +1,7 @@
+{
+  "name": "vendor/package",
+  "description": "Php minigame",
+  "require": {
+    "php": "^7.4 || ^8.0"
+  }
+}
