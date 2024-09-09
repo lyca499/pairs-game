@@ -11,14 +11,13 @@ permissions:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
 
     - name: Navigate to subdirectory
-        run: cd Minigame
+      run: cd Minigame
 
     - name: Validate composer.json and composer.lock
       run: composer validate --strict
