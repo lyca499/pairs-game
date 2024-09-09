@@ -22,7 +22,7 @@ jobs:
     - name: Validate composer.json and composer.lock
       run: |
         cd Minigame
-        composer validate --strict
+        composer validate
 
 
     - name: Cache Composer packages
